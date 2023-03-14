@@ -1,4 +1,4 @@
-package com.epam.grpc.server;
+package com.epam.grpc.service;
 
 import com.epam.grpc.proto.DataRequest;
 import com.epam.grpc.proto.DataResponse;
@@ -11,8 +11,16 @@ public class DataService {
 
     public DataResponse getData(DataRequest request) {
         return DataResponse.newBuilder()
-            .setMessage("pong")
+            .setMessage(responseSelector(request.getMessage()))
             .build();
+    }
+
+    private String responseSelector(String message) {
+        return switch (message) {
+            case ("ping") -> "pong";
+            case ("pong") -> "ping";
+            default -> "42";
+        };
     }
 
 }
