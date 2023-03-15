@@ -3,7 +3,6 @@ package com.epam.grpc.server;
 import com.epam.grpc.proto.DataRequest;
 import com.epam.grpc.proto.DataResponse;
 import com.epam.grpc.proto.DataServiceGrpc;
-import com.epam.grpc.service.DataService;
 import io.grpc.stub.StreamObserver;
 import lombok.RequiredArgsConstructor;
 import net.devh.boot.grpc.server.service.GrpcService;
