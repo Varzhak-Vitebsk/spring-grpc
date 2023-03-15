@@ -4,124 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ecf7d80-cac5-417e-9f67-0775cb175f41" name="Changes" comment="feat | grpc | added .proto file and configured maven source generation">
-      <change afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/epam/grpc/server/DataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grpc-server/src/main/java/com/epam/grpc/server/GrpcDataServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-proto/src/main/proto/HelloService.proto" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-proto/src/main/proto/HelloService.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grpc-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6ecf7d80-cac5-417e-9f67-0775cb175f41" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2My4jmaoOnet7U0glwqGQao1ZwD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "liberica-17",
-    "last_opened_file_path": "C:/Users/Vasili_Balyka/Code/grpc-basics/grpc-proto/src/main/proto",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  }
-}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Vasili_Balyka\Code\grpc-basics\grpc-proto\src\main\proto" />
-      <recent name="C:\Users\Vasili_Balyka\Code\grpc-basics\grpc-server\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vasili_Balyka\Code\grpc-basics\grpc-proto\src\main" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="GrpcServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.epam.grpc.GrpcServerApplication" />
-      <module name="grpc-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.epam.grpc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.GrpcServerApplication" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1678718405231</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678718405231</updated>
-    </task>
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="6ecf7d80-cac5-417e-9f67-0775cb175f41" name="Changes" comment="initial commit" />
-      <created>1678726626909</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1678726626909</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat | grpc | added .proto file and configured maven source generation">
-      <created>1678733411135</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678733411135</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="feat | grpc | added .proto file and configured maven source generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat | grpc | added .proto file and configured maven source generation" />
   </component>
 </project>
