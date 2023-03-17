@@ -49,13 +49,12 @@
           <protocArtifact>
             com.google.protobuf:protoc:${protobuf.version}:exe:${os.detected.classifier}
           </protocArtifact>
-          <pluginId>grpc-java</pluginId>
+          <pluginId>protobuf</pluginId>
           <pluginArtifact>
             io.grpc:protoc-gen-grpc-java:${grpc.version}:exe:${os.detected.classifier}
           </pluginArtifact>
-          <outputBaseDirectory>src/main/java/</outputBaseDirectory>
-          <outputDirectory>src/main/java/</outputDirectory>
-          <clearOutputDirectory>false</clearOutputDirectory>
+          <source>${project.build.directory}/${pluginId}/generated-sources/</source>
+          <clearOutputDirectory>true</clearOutputDirectory>
         </configuration>
         <executions>
           <execution>
